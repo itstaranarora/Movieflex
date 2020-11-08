@@ -1,9 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styles from "./Navbar.module.css";
+import { auth } from "../../firebase";
 
 const Navbar = ({ user }) => {
   console.log(user);
+  function logout() {
+    if (user) {
+      auth.signOut();
+    }
+  }
   return (
     <nav className={styles.navbar}>
       <span
@@ -28,15 +34,28 @@ const Navbar = ({ user }) => {
             Home
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            to="/explore"
-            activeClassName={styles.navLinksActive}
-            className={styles.navLinks}
-          >
-            Trending
-          </NavLink>
-        </li>
+        {user && (
+          <li>
+            <NavLink
+              to="/explore"
+              activeClassName={styles.navLinksActive}
+              className={styles.navLinks}
+            >
+              Trending
+            </NavLink>
+          </li>
+        )}
+        {user && (
+          <li>
+            <NavLink
+              to="/chat"
+              activeClassName={styles.navLinksActive}
+              className={styles.navLinks}
+            >
+              Chat
+            </NavLink>
+          </li>
+        )}
         <li>
           <NavLink
             to="/about"
@@ -55,13 +74,11 @@ const Navbar = ({ user }) => {
             className={styles.navLinks}
           >
             <i className="material-icons">
-              <a href="#">login</a>
+              <span>login</span>
             </i>
           </NavLink>
         ) : (
-          <i className="material-icons">
-            <a href="#">logout</a>
-          </i>
+          <span onClick={() => logout()}>{user?.email}</span>
         )}
       </div>
     </nav>

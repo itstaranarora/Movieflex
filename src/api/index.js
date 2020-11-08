@@ -107,7 +107,7 @@ export const getSimilarMovies = async (id) => {
       release_date: movie.release_date,
       genre_name: getMovieGenre(genres, movie.genre_ids),
     }));
-    return movies.slice(0, 2);
+    return movies.slice(0, 6);
   } catch (err) {
     console.log(err);
   }

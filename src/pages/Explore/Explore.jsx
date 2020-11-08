@@ -13,7 +13,7 @@ function Explore(props) {
 
   return (
     <div className={styles.container}>
-      <Navbar />
+      <Navbar user={props.user} />
       <div className={styles.body}>
         {movieList ? (
           movieList.map((data) => (

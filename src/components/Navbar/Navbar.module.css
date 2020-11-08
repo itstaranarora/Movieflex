@@ -1,91 +1,90 @@
-
 .navbar {
-    font-size: 1.3rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: white;
-    padding: 1rem 0;
-    grid-column: 1 / -1;
-  }
+  font-size: 1.3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 1rem 0;
+  grid-column: 1 / -1;
+}
 
-  .logo {
-    color: #196db6;
-    text-decoration: none;
-    order: 2;
-    font-weight: 600;
-    width: 60%;
-    text-align: center;
-  }
+.logo {
+  color: #196db6;
+  text-decoration: none;
+  order: 2;
+  font-weight: 600;
+  width: 60%;
+  text-align: center;
+}
 
-  .mainNav {
-    order: 4;
-    width: 100%;
-    list-style: none;
-    display: none;
-  }
+.mainNav {
+  order: 4;
+  width: 100%;
+  list-style: none;
+  display: none;
+}
 
-  .mainNav li {
-    text-align: center;
-    margin: 20px auto;
-  }
+.mainNav li {
+  text-align: center;
+  margin: 20px auto;
+}
 
-  .navLinks {
-    color: #b3c0ce;
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1rem;
-  }
+.navLinks {
+  color: #b3c0ce;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 1rem;
+}
 
-  .navLinks:hover {
-    color: #196db6;
-  }
+.navLinks:hover {
+  color: #196db6;
+}
 
-  .navbarToggle {
-    order: 1;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    cursor: pointer;
-    color: #b3c0ce;
-  }
+.navbarToggle {
+  order: 1;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  color: #b3c0ce;
+}
 
-  .navbarToggle i {
-    font-size: 2rem;
-  }
+.navbarToggle i {
+  font-size: 2rem;
+}
 
-  .active {
-    display: block;
-  }
+.active {
+  display: block;
+}
 
-  .search {
-    color: #b3c0ce;
-    width: 20%;
-    display: flex;
-    justify-content: center;
-    order: 3;
-    flex: 1;
-  }
+.search {
+  cursor: pointer;
+  color: #b3c0ce;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  order: 3;
+  flex: 1;
+}
 
-  .search a {
-    text-decoration: none;
-    color: #b3c0ce;
-  }
+.search a {
+  text-decoration: none;
+  color: #b3c0ce;
+}
 
-  .search i {
-    font-size: 1.7rem;
-    cursor: pointer;
-  }
+.search i {
+  font-size: 1.7rem;
+  cursor: pointer;
+}
 
-  .search a:hover {
-    color: #196db6;
-  }
+.search a:hover {
+  color: #196db6;
+}
 
-  .navLinksActive {
-    color: #196db6;
-  }
-
+.navLinksActive {
+  color: #196db6;
+}
 
 @media screen and (min-width: 1200px) {
   .navbar {

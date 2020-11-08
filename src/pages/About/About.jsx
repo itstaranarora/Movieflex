@@ -3,10 +3,10 @@ import styles from "./About.module.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-const About = () => {
+const About = (props) => {
   return (
     <div className={styles.container}>
-      <Navbar className={styles.navbar} />
+      <Navbar className={styles.navbar} user={props.user} />
       <div className={styles.headingComponent}>
         <h1 className={styles.pageTitle}>About MovieFlex</h1>
         <h2 className={styles.pageDiscription}>
