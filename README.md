@@ -2,7 +2,7 @@
 MovieFlex aims to provide a better and faster solution for users who love watching movies of different genres. The main motive behind working on this project is to apply my skill of Web Development &
 User Interface.
 
- ![](https://ibb.co/qd903mq)
+ ![](https://i.ibb.co/nbf3NQd/Screenshot-from-2020-11-06-14-39-29.png)
 
 ## Objectives:
 
@@ -31,7 +31,7 @@ User Interface.
 
 ## Key Features:
 
- ![](https://ibb.co/Ch6nTVz)
+ ![](https://i.ibb.co/xJYMRzD/Screenshot-from-2020-11-09-04-03-43.png)
 
 1. Users can easily create an account.
 2. Users can check the list of Movies
