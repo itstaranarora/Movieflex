@@ -25,9 +25,8 @@ User Interface.
 9. Team Viewer
 10. Material -UI
 11. Custom API
-12. Land bot
-13. Firebase
-14. Progressive Web App
+12. Firebase
+13. Progressive Web App
 
 ## Key Features:
 
@@ -35,7 +34,7 @@ User Interface.
 
 1. Users can easily create an account.
 2. Users can check the list of Movies
-3. Chatbot Feature (Where user can check
+3. Chatbot Feature (Where user can check)
 4. User can ask for recommendation from other users
 5. User can check for similar movies
 
